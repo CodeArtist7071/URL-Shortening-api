@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+:root{
+    --cyan: hsl(180, 66%, 49%);
+    --gray: hsl(0, 0%, 75%);
+    --grayish_violet: hsl(257, 7%, 63%);
+    --very_dark_blue: hsl(255, 11%, 22%);
+    --very_dark_violet: hsl(260, 8%, 14%);
+}
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background:whitesmoke;
+  
+}
+.header{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    margin: 0 10% 0 10%;
+    background: none;
+}
+.logotext{
+    width:15%;
+    line-height: 60px;
+   
+
+}
+.features_sctn{
+    width:40%;
+    font-size: 15.5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    
+}
+.features_sctn a{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+    line-height: 60px;
+    margin-left: 10px;
+    
+   
+}
+.features_sctn a:hover{
+    
+}
+.login_sctn{
+    width:45%;
+    text-align: right;
+    line-height: 70px;
+}
+.login_sctn button{
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    border-style: none;
+    margin-right: 10px;
+    font-size: 15.5px;
+    background: none;
+}
+.login:hover,.Sign_up:hover{
+ background: var(--cyan);
+ color: white;
+}
+.background_img{
+    width: 80%;
+    height: 500px;
+    margin: 0 10% 0 10%;
+    display: flex;
+    position:relative;
+}
+.text_bigger{
+    width: 50%;
+}
+.text_big{
+    width: 400px;
+    height:120px;
+    margin-left: 10%;
+    font-size: 50px;
+    font-weight: 700;
+    line-height:70px;
+}
+.text_small{
+    width: 350px;
+    margin-left: 10%;
+    color: var(--grayish_violet);
+}
+.get_started{
+    width: 150px;
+    height: 35px;
+    margin-left: 10%;
+    border-radius: 30px;
+    border-style: none;
+    background: var(--cyan);
+    color: white;
+}
+.search_area{
+    width:80%;
+    height: 100px;
+    margin: 5% 10% 0 10%;
+    background:var(--very_dark_blue);
+    background-image:url(images/bg-shorten-desktop.svg);
+    border-radius: 10px;
+}
+.url_srtnr{
+    width:80%;
+    height:300px;
+    margin: 1% 10% 0 10%;
+    background: var(--grayish_violet);
+}
+.search_area input{
+    width: 60%;
+    height: 35px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border-style: none;
+}
+.search_area button{
+    width: 30%;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    }
+.text_area{
+    width: 400px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.text_area .para_one{
+    color: var(--grayish_violet);
+}
+.card_area{
+    width: 80%;
+    height:300px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.card_one, .card_two, .card_three{
+    width:300px;
+    height:250px;
+    padding-top: 30px;
+    background:white;
+    border-radius: 10px;
+}
+.card_one{
+    margin-bottom: 200px;
+}
+.card_two{
+    margin-bottom: 150px;
+}
+.card_three{
+    margin-bottom: 100px;
+}
+.tag_one , .tag_two, .tag_three{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.tag_sub{
+    width:250px;
+    height:150px;
+    margin-left: 20px;
+    color: var(--grayish_violet);
+}
+.text_area_two {
+  width: 100%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background:var(--very_dark_blue);
+  background-image:url(images/bg-boost-desktop.svg);
+  text-align: center;
+}
+.link_text{
+    padding-top: 50px;
+    color: white;
+}
+.link_btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+    background: var(--cyan);
+}
+.footer_area{
+    width: 100%;
+    height: fit-content;
+    background: var(--very_dark_violet);
+}
+.ftr_details_area{
+    width: 100%;
+    height: 300px;
+   
+    display: flex;
+}
+.logo{
+    width: 35%;
+    height:50px;
+}
+.feature_ftr{
+    width:50%;
+    display: flex;
+    padding-top: 30px;
+    
+
+}
+.features, .resources, .company{
+    list-style: none;
+    line-height: 40px;
+    font-size: 20.5px;
+    color: white;
+}
+.features .features_li, .resources .features_li, .company .features_li{
+    font-size:15.5px;
+    color: var(--gray);
+}
+.icon_area img{
+    width:15px;
+    height:15px;
+    padding-top: 60px;
+    margin-left: 10px;
+}
+
+.attribution { 
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 11px; 
+    text-align: center;
+    color: white;
+ }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+        text-decoration: none;
+    }
