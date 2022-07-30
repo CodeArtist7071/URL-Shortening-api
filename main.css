@@ -242,3 +242,259 @@ html{
         color: hsl(228, 45%, 44%); 
         text-decoration: none;
     }
+     @media screen and (max-width:494px){
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            width: 80%;
+            height: 100px;
+            display:none;
+            margin: 0 10% 0 10%;
+            background: none;
+        }
+        .logotext{
+            width:15%;
+            line-height: 60px;
+           
+        
+        }
+        .features_sctn{
+            width:100%;
+            font-size: 15.5px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 100;
+            
+        }
+        .features_sctn a{
+            text-decoration: none;
+            text-transform: none;
+            color: black;
+            line-height: 60px;
+            margin-left: 10px;
+            
+           
+        }
+        .features_sctn a:hover{
+            
+        }
+        .login_sctn{
+            width:45%;
+            text-align: right;
+            line-height: 70px;
+        }
+        .login_sctn button{
+            width: 100px;
+            height: 35px;
+            border-radius: 30px;
+            border-style: none;
+            margin-right: 10px;
+            font-size: 15.5px;
+            background: none;
+        }
+        .login:hover,.Sign_up:hover{
+         background: var(--cyan);
+         color: white;
+        }
+        .background_img{
+            width: 80%;
+            height: 500px;
+            margin: 0 10% 0 10%;
+            display:flex;
+            flex-direction: column-reverse;
+            position:relative;
+        }
+        .text_bigger{
+            width:100%;
+        }
+        .text_big{
+            width:90%;
+            height:50px;
+            margin:0 5% 0 5%;
+            font-size: 20.5px;
+            font-weight: 700;
+            line-height:20.5px;
+        }
+        .text_small{
+            width:80%;
+            margin-left:auto;
+            margin-right: auto;
+            color: var(--grayish_violet);
+        }
+        .get_started{
+            width: 150px;
+            height: 35px;
+            margin-left: 10%;
+            border-radius: 30px;
+            border-style: none;
+            background: var(--cyan);
+            color: white;
+        }
+        .icon_bigger{
+            width:100%;
+        }
+        .icon_bigger {
+            width:100%;
+            height:400px;
+            background-image: url(images/illustration-working.svg);
+            background-size:cover;
+            background-position-x: -1cm;
+        }
+        .search_area{
+            width:90%;
+            height: 150px;
+            margin: 5% 5% 0 5%;
+            background:var(--very_dark_blue);
+            background-image:url(images/bg-shorten-mobile.svg);
+            border-radius: 10px;
+            background-size:contain;
+        }
+       
+        .search_area input{
+            width: 80%;
+            height: 35px;
+            margin: 10% 10% 0 10%;
+            border-radius: 5px;
+            border-style: none;
+        }
+        .search_area button{
+            width: 50%;
+            height: 40px;
+            margin:30px 25% 0 25%;
+            border-radius: 5px;
+            border-style: none;
+            cursor: pointer;
+            background:var(--cyan);
+            color:white;
+            }
+            .url_srtnr{
+                width: 90%;
+                height:300px;
+                margin: 1% 5% 0 5%;
+                background: var(--grayish_violet);
+            }
+        .text_area{
+            width:80%;
+            height:150px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        
+        }
+        .text_area .para_one{
+            color: var(--grayish_violet);
+        }
+        .card_area{
+            width: 80%;
+            height:900px;
+            margin: 0 auto 0 auto;
+            display:block;
+            align-items: center;
+            
+        
+        }
+        .card_one, .card_two, .card_three{
+            width:300px;
+            height:250px;
+            padding-top: 30px;
+            background:white;
+            border-radius: 10px;
+        }
+        .card_one{
+            margin-bottom: 50px;
+        }
+        .card_two{
+            margin-bottom: 50px;
+        }
+        .card_three{
+            margin-bottom: 50px;
+        }
+        .tag_one , .tag_two, .tag_three{
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+        .tag_sub{
+            width:250px;
+            height:150px;
+            margin-left: 20px;
+            color: var(--grayish_violet);
+        }
+        .text_area_two {
+          width: 100%;
+          height: 200px;
+          margin-left: auto;
+          margin-right: auto;
+          background:var(--very_dark_blue);
+          background-image:url(images/bg-boost-desktop.svg);
+          text-align: center;
+        }
+        .link_text{
+            padding-top: 50px;
+            color: white;
+        }
+        .link_btn{
+            width: 150px;
+            height: 40px;
+            border-radius: 30px;
+            border-style: none;
+            color: white;
+            background: var(--cyan);
+        }
+        .footer_area{
+            width: 100%;
+            height:800px;
+            background: var(--very_dark_violet);
+        }
+        .ftr_details_area{
+            width: 80%;
+            margin: 0 auto 0 auto;
+            height:fit-content;
+            display:block;
+        }
+        .logo{
+            width: 35%;
+            height:50px;
+        }
+        .feature_ftr{
+            width:80%;
+            display:block;
+            padding-top: 30px;
+            
+        
+        }
+        .features, .resources, .company{
+            list-style: none;
+            line-height: 40px;
+            font-size: 20.5px;
+            color: white;
+            text-align: center;
+        }
+        .features .features_li, .resources .features_li, .company .features_li{
+            font-size:15.5px;
+            color: var(--gray);
+            
+        }.icon_area{
+            width:100%;
+            height: 40px;
+
+        }
+        .icon_area img{
+            width:15px;
+            height:15px;
+            padding-top: 60px;
+            margin-left: 10px;
+            color:var(--gray);
+        }
+        
+        .attribution { 
+            padding-top: 10px;
+            padding-bottom: 20px;
+            font-size: 11px; 
+            text-align: center;
+            color: white;
+         }
+            .attribution a { 
+                color: hsl(228, 45%, 44%); 
+                text-decoration: none;
+            }  
+     }
