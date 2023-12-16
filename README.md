@@ -1,5 +1,5 @@
 #Frontend Mentor-URL Shortening API page solution
-This is the solution to the [URL Shortening page challenge by Frontend Mentor](https://codeartist7071.github.io/url-shortening-api/).
+This is the solution to the [URL Shortening page challenge by Frontend [Mentor](https://codeartist7071.github.io/URL-Shortening-api/).
 
 
 ##Table of contents
